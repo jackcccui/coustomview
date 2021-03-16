@@ -35,6 +35,7 @@ public class TextCoustomView extends View {
 
     private void init(){
 
+
         // 基础设置
         Paint paint = new Paint();
 
