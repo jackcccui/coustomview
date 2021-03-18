@@ -10,3 +10,7 @@
 /.idea
 */build
 */*.iml
+proguard/
+gradle/
+.apk
+.dex
