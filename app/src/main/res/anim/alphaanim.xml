@@ -4,6 +4,7 @@
     android:toAlpha="0.1"
     android:duration="3000"
     android:fillBefore="true"
+    android:interpolator="@android:anim/anticipate_interpolator"
     />
 
 

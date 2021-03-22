@@ -2,10 +2,19 @@ package com.changpeng.coustomview.chapt_02;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
+import android.view.animation.AnticipateInterpolator;
+import android.view.animation.AnticipateOvershootInterpolator;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.CycleInterpolator;
+import android.view.animation.DecelerateInterpolator;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.OvershootInterpolator;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
@@ -50,8 +59,8 @@ public class ViewAnimationActivity extends AppCompatActivity {
 //                setTranslateAnimation();
 //                setAlphaAnimationCode();
 //                setRotateAnimationCode();
-//                setTranslateAnimationCode();
-                animationSet();
+                setTranslateAnimationCode();
+//                animationSet();
             }
         });
 
@@ -157,6 +166,7 @@ public class ViewAnimationActivity extends AppCompatActivity {
         AlphaAnimation alphaAnimation = new AlphaAnimation(0.0f, 1.0f);
         alphaAnimation.setDuration(3000);
         alphaAnimation.setFillBefore(true);
+        alphaAnimation.setInterpolator(new LinearInterpolator());
         mTxt.startAnimation(alphaAnimation);
 
     }
@@ -187,11 +197,20 @@ public class ViewAnimationActivity extends AppCompatActivity {
                 Animation.ABSOLUTE,
                 0,
                 Animation.ABSOLUTE,
-                -180,
+                90,
                 Animation.ABSOLUTE, 0,
-                Animation.ABSOLUTE, 180);
-        animation.setDuration(1000);
+                Animation.ABSOLUTE, 0);
+        animation.setDuration(3000);
         animation.setFillBefore(true);
+        animation.setInterpolator(new LinearInterpolator()); // 线性插值器，即匀速加速器
+        animation.setInterpolator(new AccelerateInterpolator()); // 刚开始速率比较慢，然后开始加速
+        animation.setInterpolator(new AccelerateDecelerateInterpolator()); // 刚开始速率快，然后开始变慢
+        animation.setInterpolator(new DecelerateInterpolator()); // 减速插值器，动画一开始的瞬间加速到最大值，然后逐渐变慢
+        animation.setInterpolator(new BounceInterpolator());// 弹跳插值器，模拟了控件自由落地后的回弹效果，类似皮球落地后回弹的效果
+        animation.setInterpolator(new AnticipateInterpolator());// 初始偏移插值器 表示动画开始的时候向前偏移一段距离，然后应用动画
+        animation.setInterpolator(new OvershootInterpolator()); // 结束偏移插值器 表示动画结束的时候继续向动画方向偏移一段距离
+        animation.setInterpolator(new AnticipateOvershootInterpolator());// 在动画开始时向前偏移一段距离，在动画结束后向后偏移一段距离
+        animation.setInterpolator(new CycleInterpolator(2)); // 循环插值器。参数表示循环次数
         mTxt.setAnimation(animation);
         mTxt.startAnimation(animation);
 
