@@ -46,15 +46,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_03/ReverseEvaluator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_03/LoadingImageView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
@@ -66,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_03/PathAnimationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
@@ -74,6 +65,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -175,7 +175,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_02/ViewAnimation01.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_02/ViewAnimationXml.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_02/ViewAnimationXmlActivity.java" />
-        <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/scaleanim.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ViiewAnimation.md" />
@@ -199,14 +198,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_path.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_03/PathAnimationActivity.java" />
+        <option value="$PROJECT_DIR$/app/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="y" value="75" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2556" />
+    <option name="y" value="100" />
+    <option name="width" value="1601" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -240,19 +240,6 @@
               <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
               <item name="coustomview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coustomview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My Application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coustomview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,10 +420,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="75" width="1600" height="900" extended-state="0" />
+    <frame x="2556" y="100" width="1601" height="875" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28369704" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28351507" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -448,7 +435,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49935815" weight="0.32961586" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49743262" visible="true" weight="0.29491946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49743262" visible="true" weight="0.30371353" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50449294" side_tool="true" weight="0.4813154" />
       <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49550706" weight="0.2825279" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -464,6 +451,32 @@
       <window_info active="true" anchor="right" id="Assistant" order="8" visible="true" weight="0.32991013" />
       <window_info anchor="right" id="Preview" order="9" weight="0.2605905" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -494,13 +507,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -762,6 +768,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
