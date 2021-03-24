@@ -12,6 +12,7 @@
         <activity android:name=".chapt_03.Chapt3Activity"></activity>
         <activity android:name=".chapt_02.ViewAnimationActivity" />
         <activity android:name=".chapter_02_demo.ViewAnimationDemoActivity" />
+        <activity android:name=".chapt_03.PathAnimationActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

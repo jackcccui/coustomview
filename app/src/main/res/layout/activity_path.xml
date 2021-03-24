@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/menu"
+        style="@style/MenuStyle"
+
+        android:background="@drawable/menu" />
+
+    <Button
+    android:id="@+id/menu1"
+    style="@style/MenuItemStyle"
+
+    android:background="@drawable/cherry"
+    android:visibility="gone" />
+    <Button
+        android:id="@+id/menu2"
+        style="@style/MenuItemStyle"
+        android:background="@drawable/strawberry"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/menu3"
+        style="@style/MenuItemStyle"
+        android:background="@drawable/peach"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/menu4"
+        style="@style/MenuItemStyle"
+        android:background="@drawable/grape"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/menu5"
+        style="@style/MenuItemStyle"
+        android:background="@drawable/watermelon"
+        android:visibility="gone" />
+</FrameLayout>
