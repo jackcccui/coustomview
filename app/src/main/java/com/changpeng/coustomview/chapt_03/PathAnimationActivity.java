@@ -1,10 +1,12 @@
 package com.changpeng.coustomview.chapt_03;
 
 import android.animation.AnimatorSet;
+import android.animation.LayoutTransition;
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -25,12 +27,14 @@ public class PathAnimationActivity extends AppCompatActivity {
 
     private Button mBtnMenu, mBtnMenu1, mBtnMenu2, mBtnMenu3, mBtnMenu4, mBtnMenu5;
     private boolean mIsMenuOpen = false;
+    private FrameLayout mRootView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_path);
+        mRootView = findViewById(R.id.rootLayout);
 
         mBtnMenu = findViewById(R.id.menu);
         mBtnMenu1 = findViewById(R.id.menu1);
@@ -58,7 +62,7 @@ public class PathAnimationActivity extends AppCompatActivity {
 
 
         mBtnMenu1.setOnClickListener((v -> {
-            Toast.makeText(PathAnimationActivity.this,"Oclick",Toast.LENGTH_LONG).show();
+            Toast.makeText(PathAnimationActivity.this,"Onclick",Toast.LENGTH_LONG).show();
         }));
 
     }
