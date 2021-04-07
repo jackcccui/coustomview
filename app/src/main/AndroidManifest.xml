@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".chapt_04.Chapt04Activity"></activity>
+        <activity android:name=".chapt_05.Chapt5Activity"></activity>
+        <activity android:name=".chapt_04.Chapt04Activity" />
         <activity android:name=".chapt_03.Chapt3Activity" />
         <activity android:name=".chapt_02.ViewAnimationActivity" />
         <activity android:name=".chapter_02_demo.ViewAnimationDemoActivity" />
