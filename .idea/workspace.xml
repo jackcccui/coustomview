@@ -11,12 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09be4e54-9343-4806-8a0f-e15712540749" name="Default Changelist" comment="add gitignore">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_05/BeaierView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_05/BitmapShaderView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_05/Chapt5Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_05/LinearGradientView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_05/NormalGestureTrackView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapt5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_06/BitmapCanvasView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_06/Chapt6Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_06/CoostomView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_12/Chapt12Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_12/MyTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapt12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapt6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -28,7 +42,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[b57f44a]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,6 +70,7 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -85,6 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="add_unversioned_files" value="true" />
+    <property name="android-custom-view/Users/pengchang/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/widget/AppCompatTextView.java_SELECTED" value="AppCompatTextView" />
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_03/LoadingImageView.java_SELECTED" value="LoadingImageView" />
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_04/AliPayView.java_AliPayView_WRAP_CONTENT_H" value="true" />
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_04/AliPayView.java_AliPayView_WRAP_CONTENT_W" value="true" />
@@ -96,11 +112,19 @@
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/BitmapShaderView.java_SELECTED" value="BitmapShaderView" />
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/LinearGradientView.java_SELECTED" value="LinearGradientView" />
     <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/NormalGestureTrackView.java_SELECTED" value="NormalGestureTrackView" />
+    <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/AvoidXfermodeView.java_SELECTED" value="AvoidXfermodeView" />
+    <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/BitmapCanvasView.java_SELECTED" value="BitmapCanvasView" />
+    <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/CoostomView.java_SELECTED" value="CoostomView" />
+    <property name="android-custom-view/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_12/MyTextView.java_SELECTED" value="MyTextView" />
+    <property name="android-custom-view/Users/pengchang/Library/Android/sdk/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-view/Users/pengchang/Library/Android/sdk/sources/android-29/android/widget/TextView.java_SELECTED" value="TextView" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="multi-representation-preview/Users/pengchang/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/widget/AppCompatTextView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_03/LoadingImageView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_04/AliPayView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_04/ArrowLoadingView.java_selected" value="Custom views" />
@@ -110,35 +134,47 @@
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/BitmapShaderView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/LinearGradientView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_05/NormalGestureTrackView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/AvoidXfermodeView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/BitmapCanvasView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_06/CoostomView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_12/MyTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Library/Android/sdk/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/pengchang/Library/Android/sdk/sources/android-29/android/widget/TextView.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Preview" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="android.template.-1282019022">
+      <recent name="com.changpeng.coustomview.chapt_12" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.changpeng.coustomview" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.changpeng.coustomview.chapt_04" />
       <recent name="com.changpeng.coustomview.chapt_03" />
       <recent name="com.changpeng.coustomview.chapt_02" />
     </key>
+    <key name="android.template.-940049289">
+      <recent name="com.changpeng.coustomview.chapt_06" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.changpeng.coustomview" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="android.template.2026411627">
       <recent name="com.changpeng.coustomview.chapt_05" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
     </key>
   </component>
   <component name="RunManager">
@@ -307,12 +343,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="view Animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1617774636116">
+    <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1617950746615">
       <screen x="1440" y="100" width="1600" height="875" />
     </state>
     <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617707039738" />
-    <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.788/1440.100.1600.875@1440.100.1600.875" timestamp="1617773122157" />
+    <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.788/1440.100.1600.875@1440.100.1600.875" timestamp="1617880686428" />
     <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.794/1440.100.1600.875@1440.100.1600.875" timestamp="1617774636116" />
+    <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797/1440.100.1600.875@1440.100.1600.875" timestamp="1617950746615" />
+    <state width="1558" height="65" key="GridCell.Tab.0.bottom" timestamp="1617930883284">
+      <screen x="1440" y="100" width="1600" height="875" />
+    </state>
+    <state width="1558" height="77" key="GridCell.Tab.0.bottom/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904153" />
+    <state width="1558" height="65" key="GridCell.Tab.0.bottom/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883284" />
+    <state width="1558" height="65" key="GridCell.Tab.0.center" timestamp="1617930883283">
+      <screen x="1440" y="100" width="1600" height="875" />
+    </state>
+    <state width="1558" height="77" key="GridCell.Tab.0.center/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904152" />
+    <state width="1558" height="65" key="GridCell.Tab.0.center/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883283" />
+    <state width="1558" height="65" key="GridCell.Tab.0.left" timestamp="1617930883283">
+      <screen x="1440" y="100" width="1600" height="875" />
+    </state>
+    <state width="1558" height="77" key="GridCell.Tab.0.left/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904146" />
+    <state width="1558" height="65" key="GridCell.Tab.0.left/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883283" />
+    <state width="1558" height="65" key="GridCell.Tab.0.right" timestamp="1617930883284">
+      <screen x="1440" y="100" width="1600" height="875" />
+    </state>
+    <state width="1558" height="77" key="GridCell.Tab.0.right/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904153" />
+    <state width="1558" height="65" key="GridCell.Tab.0.right/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883284" />
+    <state x="235" y="54" key="SettingsEditor" timestamp="1618710939810">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="235" y="54" key="SettingsEditor/0.25.1440.786@0.25.1440.786" timestamp="1618710939810" />
   </component>
   <component name="masterDetails">
     <states>
