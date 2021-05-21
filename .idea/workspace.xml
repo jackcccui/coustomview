@@ -10,15 +10,14 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09be4e54-9343-4806-8a0f-e15712540749" name="Default Changelist" comment="add gitignore">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_12/DensityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/changpeng/coustomview/chapt_12/FlowLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/text_shape.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapt12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapt12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-preview/Users/pengchang/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.0.2/e38e7c85994112b70d4548176128c72b8477c110/appcompat-1.0.2-sources.jar!/androidx/appcompat/widget/AppCompatTextView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_03/LoadingImageView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/pengchang/Desktop/android/coustomview/app/src/main/java/com/changpeng/coustomview/chapt_04/AliPayView.java_selected" value="Custom views" />
@@ -172,6 +171,7 @@
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -222,6 +222,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -331,26 +332,30 @@
     <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.794/1440.100.1600.875@1440.100.1600.875" timestamp="1617774636116" />
     <state x="2162" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797/1440.100.1600.875@1440.100.1600.875" timestamp="1617950746615" />
     <state x="650" y="137" key="#com.intellij.ide.util.MemberChooser/0.25.1440.797@0.25.1440.797" timestamp="1618988428213" />
-    <state width="1558" height="65" key="GridCell.Tab.0.bottom" timestamp="1617930883284">
-      <screen x="1440" y="100" width="1600" height="875" />
+    <state width="1398" height="22" key="GridCell.Tab.0.bottom" timestamp="1618992448075">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
     <state width="1558" height="77" key="GridCell.Tab.0.bottom/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904153" />
     <state width="1558" height="65" key="GridCell.Tab.0.bottom/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883284" />
-    <state width="1558" height="65" key="GridCell.Tab.0.center" timestamp="1617930883283">
-      <screen x="1440" y="100" width="1600" height="875" />
+    <state width="1398" height="22" key="GridCell.Tab.0.bottom/0.25.1440.794@0.25.1440.794" timestamp="1618992448075" />
+    <state width="1398" height="22" key="GridCell.Tab.0.center" timestamp="1618992448075">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
     <state width="1558" height="77" key="GridCell.Tab.0.center/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904152" />
     <state width="1558" height="65" key="GridCell.Tab.0.center/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883283" />
-    <state width="1558" height="65" key="GridCell.Tab.0.left" timestamp="1617930883283">
-      <screen x="1440" y="100" width="1600" height="875" />
+    <state width="1398" height="22" key="GridCell.Tab.0.center/0.25.1440.794@0.25.1440.794" timestamp="1618992448075" />
+    <state width="1398" height="22" key="GridCell.Tab.0.left" timestamp="1618992448074">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
     <state width="1558" height="77" key="GridCell.Tab.0.left/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904146" />
     <state width="1558" height="65" key="GridCell.Tab.0.left/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883283" />
-    <state width="1558" height="65" key="GridCell.Tab.0.right" timestamp="1617930883284">
-      <screen x="1440" y="100" width="1600" height="875" />
+    <state width="1398" height="22" key="GridCell.Tab.0.left/0.25.1440.794@0.25.1440.794" timestamp="1618992448074" />
+    <state width="1398" height="22" key="GridCell.Tab.0.right" timestamp="1618992448075">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
     <state width="1558" height="77" key="GridCell.Tab.0.right/0.25.1440.786/1440.100.1600.875@1440.100.1600.875" timestamp="1617785904153" />
     <state width="1558" height="65" key="GridCell.Tab.0.right/0.25.1440.791/1440.100.1600.875@1440.100.1600.875" timestamp="1617930883284" />
+    <state width="1398" height="22" key="GridCell.Tab.0.right/0.25.1440.794@0.25.1440.794" timestamp="1618992448075" />
     <state x="235" y="54" key="SettingsEditor" timestamp="1618710939810">
       <screen x="0" y="25" width="1440" height="786" />
     </state>
