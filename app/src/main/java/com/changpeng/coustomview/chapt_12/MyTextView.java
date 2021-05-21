@@ -37,6 +37,7 @@ public class MyTextView extends TextView {
         int age = array.getInt(R.styleable.MyTextView_age,10);
         array.recycle();
         this.setText("headerHeight:"+headerHeight+"age :"+age);
+
     }
 
     public MyTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
